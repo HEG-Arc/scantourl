@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+                             "jpos/res/jcl.dtd">
+<JposEntries>
+    <!--Saved by JavaPOS jpos.config/loader (JCL) version 2.2.0 on 10/26/15 12:35 PM-->
+    <JposEntry logicalName="DL-Portal-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSPortalScannerService"/>
+        <vendor name="Datalogic ADC Inc." url="http://www.adc.datalogic.com"/>
+        <jpos category="PortalScanner" version="1.13"/>
+        <product description="PortalScannerService" name="PortalScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="canAcceptStatisticsCmd" type="String" value="False"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="decodeType" type="String" value="warhol"/>
+        <prop name="deviceBus" type="String" value="TCPIP"/>
+        <prop name="deviceClass" type="String" value="DLADCPortalScanner"/>
+        <prop name="deviceDescription" type="String" value="DLA Jade Portal Scanner"/>
+        <prop name="deviceName" type="String" value="DLA Portal Scanner"/>
+        <prop name="imageBuffers" type="String" value="1"/>
+        <prop name="ipAddress" type="String" value="10.1.10.168"/>
+        <prop name="ipPort" type="String" value="23959"/>
+        <prop name="laneNumber" type="String" value="0"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-GM4100-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="8xxx" type="String" value="True"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon M4100 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon M4100 Scanner"/>
+        <prop name="productId" type="String" value="1214"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+    </JposEntry>
+    <JposEntry logicalName="DL-Magellan-9800i-USB-OEM-Scanner-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="configOnClaim" type="String" value="False"/>
+        <prop name="configWithDIO" type="String" value="True"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="standard"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 9800i USB OEM Scanner Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 9800i"/>
+        <prop name="disableOnExit" type="String" value="False"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1511"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DL-Magellan-9400i-USB-OEM-Scanner-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="standard"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 9400i USB OEM Scanner Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 9400i"/>
+        <prop name="disableOnExit" type="String" value="False"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1512"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-8500Xt-USB-Scanner-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 8500Xt USB Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 8500Xt"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="flowControl" type="String" value="Xon/Xoff"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="150A"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+    </JposEntry>
+    <JposEntry logicalName="Example[Linux-Exact-Port-Match]-DLS-Magellan-RS232-Scanner-SingleCable">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="7"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="SCRS232Scanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan RS232 Scanner Single Cable"/>
+        <prop name="deviceName" type="String" value="DLS Magellan SCRS232 Scanner"/>
+        <prop name="flowControl" type="String" value="Xon/Xoff"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="parity" type="String" value="Odd"/>
+        <prop name="portName" type="String" value="/dev/ttyS0"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="53"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="singleCable" type="String" value="True"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="txPrefix" type="String" value="53"/>
+        <prop name="txTrailer" type="String" value="d"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useBCC" type="String" value="False"/>
+        <prop name="useSunJavaxComm" type="String" value="True"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Bluetooth-Dongle-Handheld-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="Datalogic ADC Inc." url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="standard"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232HHScanner"/>
+        <prop name="deviceDescription" type="String" value="DL RS232 Handheld Scanner"/>
+        <prop name="deviceName" type="String" value="DL RS232 Handheld Scanner"/>
+        <prop name="disableOnExit" type="String" value="False"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="5"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useBluetoothDongle" type="String" value="True"/>
+        <prop name="useCOMxOnLinux" type="String" value="False"/>
+        <prop name="useVirtualPort" type="String" value="False"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Magellan-RS232-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScaleInstanceFactory" serviceClass="com.dls.jpos.service.DLSScaleService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scale" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="False"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="dataBits" type="String" value="7"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232Scale"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan RS232 Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan RS232 Scale"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="liveWeightPollRate" type="String" value="500"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="metricWeightMode" type="String" value="False"/>
+        <prop name="parity" type="String" value="Even"/>
+        <prop name="portName" type="String" value="1"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="2"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="stopBits" type="String" value="2"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+        <prop name="zeroValid" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Magellan-RS232-Scale-SingleCable">
+        <creation factoryClass="com.dls.jpos.service.DLSScaleInstanceFactory" serviceClass="com.dls.jpos.service.DLSScaleService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scale" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="False"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canStatusUpdate" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="dataBits" type="String" value="7"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="SCRS232Scale"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan Single Cable RS232 Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan SCRS232 Scale"/>
+        <prop name="displayRequired" type="String" value="True"/>
+        <prop name="enforceZeroReturn" type="String" value="False"/>
+        <prop name="fiveDigitWeight" type="String" value="True"/>
+        <prop name="flowControl" type="String" value="Xon/Xoff"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="indicateZeroWithLED" type="String" value="True"/>
+        <prop name="liveWeightPollRate" type="String" value="500"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="metricWeightMode" type="String" value="False"/>
+        <prop name="operationMode" type="String" value="0"/>
+        <prop name="parity" type="String" value="Odd"/>
+        <prop name="portName" type="String" value="1"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="53"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="True"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="txPrefix" type="String" value="53"/>
+        <prop name="txTrailer" type="String" value="d"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useBCC" type="String" value="False"/>
+        <prop name="useSunJavaxComm" type="String" value="True"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="vibrationSensitivity" type="String" value="2"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+        <prop name="zeroValid" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Magellan-RS232-Scanner-2200">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232Scanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan RS232 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Magellan RS232 Scanner"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="1"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Powerscan-M8300-USB-COM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="8xxx" type="String" value="True"/>
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232HHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Powerscan M8300 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Powerscan M8300 Scanner"/>
+        <prop name="flowControl" type="String" value="Xon/Xoff"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="6"/>
+        <prop name="productId" type="String" value="0400"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="useVirtualPort" type="String" value="True"/>
+        <prop name="vendorId" type="String" value="080C"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-GBT4400-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon BT4400 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon BT4400 Scanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="120A"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-GFS4490-NEW-FLASH-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon GFS4490 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon GFS4490 Scanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1226"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-GFS4490-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon GFS4490 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon GFS4490 Scanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1216"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-3X00-USB-COM-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="Datalogic ADC Inc." url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="standard"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232Scanner"/>
+        <prop name="deviceDescription" type="String" value="DLS-3X00-USB-COM Scanner"/>
+        <prop name="deviceName" type="String" value="DLS-3X00-USB-COM Scanner"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="1"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useCOMxOnLinux" type="String" value="False"/>
+        <prop name="useVirtualPort" type="String" value="True"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-D432-Plus-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="8xxx" type="String" value="True"/>
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="False"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS D432 Plus Scanner"/>
+        <prop name="deviceName" type="String" value="DLS D432 Plus Scanner"/>
+        <prop name="flowControl" type="String" value="Xon/Xoff"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="1"/>
+        <prop name="productId" type="String" value="0600"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+    </JposEntry>
+    <JposEntry logicalName="Example[FastCFR-Config]-DLS-Magellan-9800i-USB-OEM-Scanner-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+	<product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="0056" type="String" value="18"/>
+        <prop name="0057" type="String" value="22"/>
+        <prop name="0090" type="String" value="01"/>
+        <prop name="0100" type="String" value="01"/>
+        <prop name="022B" type="String" value="01"/>
+        <prop name="02D0" type="String" value="01"/>
+        <prop name="02D1" type="String" value="01"/>
+        <prop name="02D2" type="String" value="01"/>
+        <prop name="02D3" type="String" value="01"/>
+        <prop name="032B" type="String" value="00400000"/>
+        <prop name="0336" type="String" value="00"/>
+        <prop name="0382" type="String" value="00"/>
+        <prop name="0384" type="String" value="01"/>
+        <prop name="0385" type="String" value="00"/>
+        <prop name="0387" type="String" value="00"/>
+        <prop name="0388" type="String" value="00"/>
+        <prop name="0389" type="String" value="01"/>
+        <prop name="038A" type="String" value="01"/>
+        <prop name="038C" type="String" value="00"/>
+        <prop name="0392" type="String" value="01"/>
+        <prop name="0396" type="String" value="01"/>
+        <prop name="03AF" type="String" value="00"/>
+        <prop name="03E6" type="String" value="01"/>
+        <prop name="0430" type="String" value="01"/>
+        <prop name="045C" type="String" value="03"/>
+        <prop name="045E" type="String" value="03"/>
+        <prop name="045F" type="String" value="01"/>
+        <prop name="0460" type="String" value="01"/>
+        <prop name="0467" type="String" value="02"/>
+        <prop name="046B" type="String" value="20"/>
+        <prop name="046D" type="String" value="00"/>
+        <prop name="0471" type="String" value="02"/>
+        <prop name="0509" type="String" value="01"/>
+        <prop name="0550" type="String" value="70"/>
+        <prop name="05AF" type="String" value="01"/>
+        <prop name="06FA" type="String" value="64"/>
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptConfigItems" type="String" value="True"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canProgramConfigOnClaim" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="standard"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 9800i USB OEM Scanner Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 9800i"/>
+        <prop name="disableOnExit" type="String" value="False"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1511"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Gryphon-GD4135-USB-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataPrefix" type="String" value=""/>
+        <prop name="dataSuffix" type="String" value=""/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon GD4135 USB Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon GD4135"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="False"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="False"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="False"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="flowControl" type="String" value="Xon/Xoff"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1206"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-8500Xt-USB-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 8500Xt USB Scanner w/o Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 8500Xt"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1508"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+    </JposEntry>    
+    <JposEntry logicalName="DLS-Magellan-RS232-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232Scanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan RS232 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Magellan RS232 Scanner"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="1"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useVirtualPort" type="String" value="False"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-3200-USB-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="standard"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 3200 USB Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 3200"/>
+        <prop name="disableOnExit" type="String" value="False"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="True"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="4"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="150b"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-USB-Flash">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Flash" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="productId" type="String" value="120A"/>
+        <prop name="usage" type="String" value="A000"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-8400-USB-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 8400 USB Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 8400"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1504"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-8500-OmegaTek-USB-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScaleInstanceFactory" serviceClass="com.dls.jpos.service.DLSScaleService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scale" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canStatusUpdate" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScale"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 8500 OmegaTek USB Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 8500 OmegaTek"/>
+        <prop name="displayRequired" type="String" value="True"/>
+        <prop name="enforceZeroReturn" type="String" value="False"/>
+        <prop name="fiveDigitWeight" type="String" value="False"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="indicateZeroWithLED" type="String" value="True"/>
+        <prop name="liveWeightPollRate" type="String" value="500"/>
+        <prop name="metricWeightMode" type="String" value="False"/>
+        <prop name="operationMode" type="String" value="0"/>
+        <prop name="productId" type="String" value="1101"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="usage" type="String" value="6e00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="vibrationSensitivity" type="String" value="2"/>
+        <prop name="zeroValid" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Gryphon-GD4430-NEW-FLASH-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon 4430 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon 4430 Scanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1224"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DL-Heron-GD3430-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon 4430 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon 4430 Scanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1220"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DL-Gryphon-GD4430-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Gryphon 4430 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Gryphon 4430 Scanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="120C"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DL-PowerScan-M9500-S-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS PowerScan M9500 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS PowerScan M9500 Scanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1210"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05F9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-QD2110-USB-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataPrefix" type="String" value=""/>
+        <prop name="dataSuffix" type="String" value=""/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS QD2110 USB Scanner"/>
+        <prop name="deviceName" type="String" value="DLS QD2110"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="False"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="False"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="False"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1213"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4B00"/>
+        <prop name="vendorId" type="String" value="05F9"/>
+    </JposEntry>
+    <JposEntry logicalName="Example[CellPhoneMode-Config]-DLS-Magellan-9800i-USB-OEM-Scanner-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="0056" type="String" value="12"/>
+        <prop name="0057" type="String" value="18"/>
+        <prop name="0090" type="String" value="01"/>
+        <prop name="0100" type="String" value="01"/>
+        <prop name="022B" type="String" value="01"/>
+        <prop name="02D0" type="String" value="01"/>
+        <prop name="02D1" type="String" value="01"/>
+        <prop name="02D2" type="String" value="01"/>
+        <prop name="02D3" type="String" value="01"/>
+        <prop name="0336" type="String" value="00"/>
+        <prop name="0384" type="String" value="01"/>
+        <prop name="0387" type="String" value="01"/>
+        <prop name="0389" type="String" value="01"/>
+        <prop name="038A" type="String" value="01"/>
+        <prop name="0392" type="String" value="01"/>
+        <prop name="045F" type="String" value="01"/>
+        <prop name="0460" type="String" value="01"/>
+        <prop name="0467" type="String" value="00"/>
+        <prop name="046D" type="String" value="02"/>
+        <prop name="0471" type="String" value="02"/>
+        <prop name="0509" type="String" value="01"/>
+        <prop name="0550" type="String" value="46"/>
+        <prop name="05AF" type="String" value="01"/>
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptConfigItems" type="String" value="True"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canProgramConfigOnClaim" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="standard"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 9800i USB OEM Scanner Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 9800i"/>
+        <prop name="disableOnExit" type="String" value="False"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1511"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-QW2120-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS QW2130 USB OEM Scanner"/>
+        <prop name="deviceName" type="String" value="DLS QW2130 USB OEM Scanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1213"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4B00"/>
+        <prop name="vendorId" type="String" value="05F9"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Magellan-1100i-USB">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataPrefix" type="String" value=""/>
+        <prop name="dataSuffix" type="String" value=""/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 1100i Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 1100iScanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="False"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="False"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="False"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="False"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="4"/>
+        <prop name="itfLength2" type="String" value="32"/>
+        <prop name="itfRange" type="String" value="1"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="productId" type="String" value="1602"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="1"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-D430-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="8xxx" type="String" value="True"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="False"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS D430 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS D430 Scanner"/>
+        <prop name="productId" type="String" value="0600"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="080c"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-8400-USB-Scanner-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 8400 USB Scanner-Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 8400"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1503"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-8500Xt-USB-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScaleInstanceFactory" serviceClass="com.dls.jpos.service.DLSScaleService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scale" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canStatusUpdate" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScale"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 8500Xt USB Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 8500Xt"/>
+        <prop name="displayRequired" type="String" value="True"/>
+        <prop name="enforceZeroReturn" type="String" value="False"/>
+        <prop name="fiveDigitWeight" type="String" value="False"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="indicateZeroWithLED" type="String" value="True"/>
+        <prop name="liveWeightPollRate" type="String" value="500"/>
+        <prop name="metricWeightMode" type="String" value="False"/>
+        <prop name="operationMode" type="String" value="0"/>
+        <prop name="productId" type="String" value="1508"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="usage" type="String" value="6e00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="vibrationSensitivity" type="String" value="2"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Magellan-RS232-Scanner-SingleCable">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="7"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="SCRS232Scanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan RS232 Scanner Single Cable"/>
+        <prop name="deviceName" type="String" value="DLS Magellan SCRS232 Scanner"/>
+        <prop name="flowControl" type="String" value="Xon/Xoff"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="parity" type="String" value="Odd"/>
+        <prop name="portName" type="String" value="1"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="53"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="singleCable" type="String" value="True"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="txPrefix" type="String" value="53"/>
+        <prop name="txTrailer" type="String" value="d"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useBCC" type="String" value="False"/>
+        <prop name="useSunJavaxComm" type="String" value="True"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-8300-RS232-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+       <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="False"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232Scanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan RS232 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Magellan RS232 Scanner"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="2"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useVirtualPort" type="String" value="False"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-8500-OmegaTek-USB-Scanner-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+	<product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 8500 OmegaTek USB Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 8500 OmegaTek"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="1101"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+    </JposEntry>
+    <JposEntry logicalName="DL-Magellan-USB-COM-Scanner">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="Datalogic ADC Inc." url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptConfigItems" type="String" value="True"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="standard"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232Scanner"/>
+        <prop name="deviceDescription" type="String" value="DL-Magellan-USB-COM Scanner"/>
+        <prop name="deviceName" type="String" value="DL-Magellan-USB-COM Scanner"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="1"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useCOMxOnLinux" type="String" value="False"/>
+        <prop name="useSunJavaxComm" type="String" value="True"/>
+        <prop name="useVirtualPort" type="String" value="True"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-8400-USB-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScaleInstanceFactory" serviceClass="com.dls.jpos.service.DLSScaleService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scale" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canStatusUpdate" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScale"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 8400 USB Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 8400"/>
+        <prop name="displayRequired" type="String" value="True"/>
+        <prop name="enforceZeroReturn" type="String" value="False"/>
+        <prop name="fiveDigitWeight" type="String" value="False"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="indicateZeroWithLED" type="String" value="True"/>
+        <prop name="liveWeightPollRate" type="String" value="500"/>
+        <prop name="metricWeightMode" type="String" value="True"/>
+        <prop name="operationMode" type="String" value="0"/>
+        <prop name="productId" type="String" value="1503"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="usage" type="String" value="6e00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="vibrationSensitivity" type="String" value="2"/>
+        <prop name="zeroValid" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-PD9350-USB-OEM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="beepDuration" type="String" value="1"/>
+        <prop name="beepFrequency" type="String" value="2"/>
+        <prop name="beepVolume" type="String" value="2"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBHHScanner"/>
+        <prop name="deviceDescription" type="String" value="DLS PowerScan 9350 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS PowerScan 9350Scanner"/>
+        <prop name="doubleReadTimeout" type="String" value="2"/>
+        <prop name="enable2DigitSups" type="String" value="False"/>
+        <prop name="enable4DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitPriceCheckDigit" type="String" value="False"/>
+        <prop name="enable5DigitSups" type="String" value="False"/>
+        <prop name="enableBarCodeProgramming" type="String" value="True"/>
+        <prop name="enableCodabar" type="String" value="True"/>
+        <prop name="enableCode128" type="String" value="True"/>
+        <prop name="enableCode128Sups" type="String" value="False"/>
+        <prop name="enableCode39" type="String" value="True"/>
+        <prop name="enableCode39CheckDigit" type="String" value="False"/>
+        <prop name="enableCode93" type="String" value="True"/>
+        <prop name="enableEANJAN2LabelDecode" type="String" value="False"/>
+        <prop name="enableGoodReadBeep" type="String" value="True"/>
+        <prop name="enableInterleaved" type="String" value="True"/>
+        <prop name="enableITFCheckDigit" type="String" value="False"/>
+        <prop name="enableLaserOnOffSwitch" type="String" value="True"/>
+        <prop name="enableUCCEAN128" type="String" value="True"/>
+        <prop name="enableUPCACheckDigit" type="String" value="False"/>
+        <prop name="enableUPCAtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCD1D5" type="String" value="True"/>
+        <prop name="enableUPCEAN" type="String" value="True"/>
+        <prop name="enableUPCECheckDigit" type="String" value="False"/>
+        <prop name="enableUPCEtoEAN13Expansion" type="String" value="False"/>
+        <prop name="enableUPCEtoUPCAExpansion" type="String" value="False"/>
+        <prop name="enableVolumeSwitch" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="itfLength1" type="String" value="0"/>
+        <prop name="itfLength2" type="String" value="0"/>
+        <prop name="itfRange" type="String" value="0"/>
+        <prop name="laserTimeout" type="String" value="1"/>
+        <prop name="ledGoodReadDuration" type="String" value="1"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="motorTimeout" type="String" value="1"/>
+        <prop name="productId" type="String" value="120D"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="storeLabelSecurityLevel" type="String" value="0"/>
+        <prop name="twoItfs" type="String" value="0"/>
+        <prop name="usage" type="String" value="4b00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="WMIEnabled" type="String" value="False"/>
+    </JposEntry>
+    <JposEntry logicalName="DL-Magellan-9800i-USB-OEM-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScaleInstanceFactory" serviceClass="com.dls.jpos.service.DLSScaleService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scale" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canStatusUpdate" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScale"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 9800i USB OEM Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 9800i Scale"/>
+        <prop name="displayRequired" type="String" value="True"/>
+        <prop name="enforceZeroReturn" type="String" value="False"/>
+        <prop name="fiveDigitWeight" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="indicateZeroWithLED" type="String" value="True"/>
+        <prop name="liveWeightPollRate" type="String" value="500"/>
+        <prop name="metricWeightMode" type="String" value="False"/>
+        <prop name="operationMode" type="String" value="0"/>
+        <prop name="productId" type="String" value="1511"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="usage" type="String" value="6e00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="vibrationSensitivity" type="String" value="2"/>
+        <prop name="zeroValid" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DL-Magellan-9400i-USB-OEM-Scale">
+        <creation factoryClass="com.dls.jpos.service.DLSScaleInstanceFactory" serviceClass="com.dls.jpos.service.DLSScaleService"/>
+        <vendor name="DLA" url="http://www.adc.datalogic.com"/>
+        <jpos category="Scale" version="1.13"/>
+        <product description="ScaleService" name="ScaleService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="canCompareFirmwareVersion" type="String" value="False"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canStatusUpdate" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="False"/>
+        <prop name="deviceBus" type="String" value="USB"/>
+        <prop name="deviceClass" type="String" value="USBScale"/>
+        <prop name="deviceDescription" type="String" value="DLS Magellan 9400i USB OEM Scale"/>
+        <prop name="deviceName" type="String" value="DLS Magellan 9400i Scale"/>
+        <prop name="displayRequired" type="String" value="True"/>
+        <prop name="enforceZeroReturn" type="String" value="False"/>
+        <prop name="fiveDigitWeight" type="String" value="True"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="indicateZeroWithLED" type="String" value="True"/>
+        <prop name="liveWeightPollRate" type="String" value="500"/>
+        <prop name="metricWeightMode" type="String" value="False"/>
+        <prop name="operationMode" type="String" value="0"/>
+        <prop name="productId" type="String" value="1512"/>
+        <prop name="scanControl" type="String" value="False"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="usage" type="String" value="6e00"/>
+        <prop name="vendorId" type="String" value="05f9"/>
+        <prop name="vibrationSensitivity" type="String" value="2"/>
+        <prop name="zeroValid" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DL-Handheld-Scanner-RS232-US">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="Datalogic ADC Inc." url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="standard"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232HHScanner"/>
+        <prop name="deviceDescription" type="String" value="DL RS232 Handheld Scanner"/>
+        <prop name="deviceName" type="String" value="DL RS232 Handheld Scanner"/>
+        <prop name="disableOnExit" type="String" value="False"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="20"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useCOMxOnLinux" type="String" value="False"/>
+        <prop name="useSunJavaxComm" type="String" value="False"/>
+        <prop name="useVirtualPort" type="String" value="True"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+        <JposEntry logicalName="DL-Handheld-Scanner-RS232-EU">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="Datalogic ADC Inc." url="http://www.adc.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.adc.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="decodeData" type="String" value="False"/>
+        <prop name="decodeType" type="String" value="warhol"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceClass" type="String" value="RS232HHScanner"/>
+        <prop name="deviceDescription" type="String" value="DL RS232 Handheld Scanner"/>
+        <prop name="deviceName" type="String" value="DL RS232 Handheld Scanner"/>
+        <prop name="disableOnExit" type="String" value="False"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="fullDisable" type="String" value="False"/>
+        <prop name="MBeansEnabled" type="String" value="False"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="20"/>
+        <prop name="productId" type="String" value="0"/>
+        <prop name="rxPrefix" type="String" value="0"/>
+        <prop name="rxTrailer" type="String" value="d"/>
+        <prop name="singleCable" type="String" value="False"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="0"/>
+        <prop name="useCOMxOnLinux" type="String" value="False"/>
+        <prop name="useSunJavaxComm" type="String" value="False"/>
+        <prop name="useVirtualPort" type="String" value="True"/>
+        <prop name="vendorId" type="String" value="0"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+    <JposEntry logicalName="DLS-Powerscan-M9500-USB-COM">
+        <creation factoryClass="com.dls.jpos.service.DLSScannerInstanceFactory" serviceClass="com.dls.jpos.service.DLSScannerService"/>
+        <vendor name="Datalogic Scanning Inc." url="http://www.scanning.datalogic.com"/>
+        <jpos category="Scanner" version="1.13"/>
+        <product description="ScannerService" name="ScannerService" url="http://www.scanning.datalogic.com"/>
+        <!--Other non JavaPOS required property (mostly vendor properties and bus specific properties i.e. RS232 )-->
+        <prop name="9xxx" type="String" value="True"/>
+        <prop name="baudRate" type="String" value="9600"/>
+        <prop name="canAcceptStatisticsCmd" type="String" value="True"/>
+        <prop name="canCompareFirmwareVersion" type="String" value="True"/>
+        <prop name="canNotifyPowerChange" type="String" value="True"/>
+        <prop name="canUpdateFirmware" type="String" value="True"/>
+        <prop name="dataBits" type="String" value="8"/>
+        <prop name="deviceBus" type="String" value="RS232"/>
+        <prop name="deviceDescription" type="String" value="DLS Powerscan M9500 Scanner"/>
+        <prop name="deviceName" type="String" value="DLS Powerscan M9500 Scanner"/>
+        <prop name="flowControl" type="String" value="None"/>
+        <prop name="MBeansEnabled" type="String" value="True"/>
+        <prop name="parity" type="String" value="None"/>
+        <prop name="portName" type="String" value="3"/>
+        <prop name="productId" type="String" value="0400"/>
+        <prop name="stopBits" type="String" value="1"/>
+        <prop name="usage" type="String" value="4a00"/>
+        <prop name="useVirtualPort" type="String" value="True"/>
+        <prop name="vendorId" type="String" value="080C"/>
+        <prop name="WMIEnabled" type="String" value="True"/>
+    </JposEntry>
+</JposEntries>
