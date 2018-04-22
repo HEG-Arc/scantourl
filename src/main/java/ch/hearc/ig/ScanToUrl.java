@@ -15,6 +15,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
+package ch.hearc.ig;
+
 import com.dls.jpos.interpretation.*;
 import com.google.api.core.ApiFutureCallback;
 import com.google.api.core.ApiFutures;
@@ -41,7 +43,7 @@ import org.apache.logging.log4j.LogManager;
 /**
  * Script to scan QR code and send code to url
  */
-public class DBLScanToURL implements StatusUpdateListener, DataListener, ErrorListener {
+public class ScanToUrl implements StatusUpdateListener, DataListener, ErrorListener {
 
     private static final String PROJECT_ID = "firebase-ptw";
     private static final String APP_ROOT = "business-card-app";
@@ -49,7 +51,7 @@ public class DBLScanToURL implements StatusUpdateListener, DataListener, ErrorLi
     private static final Logger logger = LogManager.getLogger("ScanHistory");
 
     static Scanner scanner = null;
-    static DBLScanToURL scannerListeners = null;
+    static ScanToUrl scannerListeners = null;
     byte[] scanData = new byte[]{};
     String scanDataLabel;
     int itemDataCount = 0;
@@ -70,7 +72,7 @@ public class DBLScanToURL implements StatusUpdateListener, DataListener, ErrorLi
 
         targetUrl = "http://dbl.requestcatcher.com/?=";
 
-        scannerListeners = new DBLScanToURL();
+        scannerListeners = new ScanToUrl();
 
         // start scanning
         try {

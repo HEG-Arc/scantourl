@@ -2,6 +2,7 @@ group 'ch.hearc.ig'
 version '1.0'
 
 apply plugin: 'java'
+apply plugin: 'java-library-distribution'
 
 sourceCompatibility = 1.8
 
@@ -23,4 +24,23 @@ dependencies {
     runtime group: 'commons-lang', name: 'commons-lang', version: '2.6'
     runtime group: 'javax.usb', name: 'usb-api', version: '1.0.2'
     runtime group: 'com.neuronrobotics', name: 'nrjavaserial', version: '3.13.0'
+}
+
+distributions {
+    main{
+        baseName = 'scan-to-url'
+        contents {
+            from { 'config' }
+        }
+    }
+}
+
+jar {
+    // Keep jar clean:
+    exclude 'META-INF/*.SF', 'META-INF/*.DSA', 'META-INF/*.RSA', 'META-INF/*.MF'
+
+    manifest {
+        attributes 'Main-Class': 'ch.hearc.ig.ScanToUrl',
+                'Class-Path': configurations.runtime.files.collect { "lib/$it.name" }.join(' ')
+    }
 }
